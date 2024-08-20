@@ -8,7 +8,7 @@ const links = [
   {
     title: "GitHub",
     icon: <FaGithub className="h-full w-full text-primary" />,
-    href: "https://github.com/keerthireddy2000",
+    href: "https://github.com/keerthireddytummalapelly",
   },
   {
     title: "LinkedIn",

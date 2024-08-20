@@ -27,8 +27,8 @@ export const projects = [
     description:
       "A personalized platform to showcase my education, experience, and projects, reflecting my technical proficiency. It also demonstrates my commitment to continuous learning and technological innovation.",
     technologies: "Next JS, Tailwind CSS, Framer Motion",
-    link: "https://github.com/keerthireddy2000/MEME",
-    githubLink: "https://github.com/keerthireddy2000/MEME",
+    link: "https://github.com/keerthireddytummalapelly/myportfolio",
+    githubLink: "https://github.com/keerthireddytummalapelly/myportfolio",
     websiteLink: "https://github.com/keerthireddy2000/MEME",
   },
 ];
