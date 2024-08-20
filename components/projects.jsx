@@ -9,8 +9,8 @@ export const projects = [
         application serves as a centralized platform connecting users and administrators, facilitating seamless interaction and improving
         customer experience.`,
     technologies: "SpringBoot, Java, MYSQL",
-    link: "https://github.com/keerthireddy2000/MEME",
-    githubLink: "https://github.com/keerthireddy2000/MEME",
+    link: "https://github.com/keerthireddytummalapelly/MEME",
+    githubLink: "https://github.com/keerthireddytummalapelly/MEME",
   },
   {
     title: "Traffic Surveillance System",
@@ -29,7 +29,7 @@ export const projects = [
     technologies: "Next JS, Tailwind CSS, Framer Motion",
     link: "https://github.com/keerthireddytummalapelly/myportfolio",
     githubLink: "https://github.com/keerthireddytummalapelly/myportfolio",
-    websiteLink: "https://github.com/keerthireddy2000/MEME",
+    websiteLink: "",
   },
 ];
 
