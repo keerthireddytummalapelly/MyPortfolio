@@ -4,6 +4,8 @@
 
 This is a personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. It showcases my experience, education, and projects with a modern, responsive design and smooth animations.
 
+Visit website: https://portfolio-gginmknd2-keerthi-redddy-tummalapellys-projects.vercel.app/
+
 ## Getting Started
 
 Follow these instructions to clone and run this project on your local machine.
@@ -26,6 +28,7 @@ You should also have npm or Yarn installed.
 3. Install the dependencies using npm or Yarn
       
     With npm: npm install
+
     With Yarn: yarn install
 
 ### Run the Project
@@ -33,6 +36,7 @@ You should also have npm or Yarn installed.
 1. Start the development server:
     
     With npm: npm run dev
+
     With Yarn: yarn dev
 
 The project should now be running on http://localhost:3000. Open this URL in your web browser to view the application.
@@ -42,6 +46,7 @@ The project should now be running on http://localhost:3000. Open this URL in you
 1. To create an optimized production build, run:
 
     With npm: npm run build
+
     With yarn: yarn build
 
 ## Contact
