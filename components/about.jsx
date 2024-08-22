@@ -89,7 +89,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="flex mt-6 lg:mt-20 xl:mt-6 lg:w-1/2 flex-1 items-center justify-center">
+          <div className="hidden lg:flex mt-6 lg:mt-20 xl:mt-6 lg:w-1/2 flex-1 items-center justify-center">
             <img
               src="/assets/myPhoto.jpg"
               alt="Photo"

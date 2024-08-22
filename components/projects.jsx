@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { HoverEffect } from "./ui/card-hover-effect";
+import dynamic from 'next/dynamic';
+const HoverEffect = dynamic(() => import('./ui/card-hover-effect').then(mod => mod.HoverEffect), { ssr: false });
 
 export const projects = [
   {
