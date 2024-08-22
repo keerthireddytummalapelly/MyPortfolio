@@ -9,7 +9,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 const words = [
   {
     text: "Keerthi Reddy Tummalapelly",
-    className: "text-white text-[20px] xl:text-[48px]",
+    className: "text-white text-[20px] lg:text-[40px] xl:text-[48px]",
   },
 ];
 
@@ -35,23 +35,23 @@ export default function About() {
   return (
     <div className="h-full pt-36">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col xl:flex-row items-center xl:items-start justify-between xl:pt-8 xl:pd-24">
-          <div className="text-left xl:w-3/4 xl:mr-8">
-            <h1 className="text-[20px] xl:text-[32px] font-bold mb-6">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-8 lg:pb-24">
+          <div className="text-left lg:w-3/4 lg:mr-8">
+            <h1 className="text-[20px] lg:text-[32px] font-bold mb-6">
               Hello I'm, <br />
               <TypewriterEffectSmooth words={words} />
             </h1>
-            <p className="text-white text-justify mb-6">
-              I'm a passionate software developer dedicated to turning ideas
-              into impactful solutions. With a strong foundation in both
-              frontend and backend development, I love crafting code that not
-              only functions beautifully but also makes a meaningful difference
-              in people's lives. Whether it's building intuitive user
-              interfaces, optimizing performance, or diving deep into complex
-              algorithms, I'm driven by the potential of technology to solve
-              real-world problems and improve everyday experiences.
+            <p className="text-zinc-100 text-justify mb-6">
+              I'm a dedicated software developer with a passion for transforming
+              ideas into powerful, real-world solutions. With expertise in both
+              frontend and backend development, I thrive on creating elegant,
+              efficient code that not only performs flawlessly but also enhances
+              user experiences. From designing intuitive user interfaces to
+              optimizing complex algorithms, I am committed to leveraging
+              technology to solve real-world challenges and make a tangible
+              impact on everyday life.
             </p>
-            <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-8 xl:space-x-8 space-y-4 xl:space-y-0 mb-6">
+            <div className="flex flex-row items-center gap-4 lg:gap-8 mb-6">
               <Link
                 href="https://drive.google.com/file/d/1QYc08J_FZxsRCe4EkXl9qigGh5Xlg8sL/view?usp=sharing"
                 target="_blank"
@@ -65,33 +65,35 @@ export default function About() {
                   </span>
                 </button>
               </Link>
-              {links.map((link, index) => (
-                <Link
-                  key={index}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group relative flex items-center justify-center p-2"
-                >
-                  <span className="sr-only">{link.title}</span>
-                  <div className="h-8 w-8 ">
-                    {React.cloneElement(link.icon, {
-                      className:
-                        "text-white group-hover:text-primary text-[32px]",
-                    })}
-                  </div>
-                  <span className="absolute bottom-full mb-2 hidden w-max rounded px-2 py-1 text-xs text-white group-hover:block">
-                    {link.title}
-                  </span>
-                </Link>
-              ))}
+              <div className="flex flex-row gap-4">
+                {links.map((link, index) => (
+                  <Link
+                    key={index}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative flex items-center justify-center p-2"
+                  >
+                    <span className="sr-only">{link.title}</span>
+                    <div className="h-8 w-8 ">
+                      {React.cloneElement(link.icon, {
+                        className:
+                          "text-white group-hover:text-primary text-[24px] lg:text-[32px]",
+                      })}
+                    </div>
+                    <span className="absolute bottom-full mb-2 hidden w-max rounded px-2 py-1 text-xs text-white group-hover:block">
+                      {link.title}
+                    </span>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
-          <div className="mt-6 xl:mt-6 xl:w-3/4 flex-1">
+          <div className="flex mt-6 lg:mt-20 xl:mt-6 lg:w-1/2 flex-1 items-center justify-center">
             <img
               src="/assets/myPhoto.jpg"
               alt="Photo"
-              className="w-full h-full object-cover rounded-xl"
+              className="lg:w-full w-3/4 h-full object-cover rounded-xl"
             />
           </div>
         </div>

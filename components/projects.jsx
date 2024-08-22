@@ -13,14 +13,12 @@ export const projects = [
     githubLink: "https://github.com/keerthireddytummalapelly/MEME",
   },
   {
-    title: "Traffic Surveillance System",
-    description: `A real-time traffic monitoring system to take time allocation decisions according to the traffic density and eventually
-        indicate location of violating vehicles. Implemented computer vision algorithms for vehicle detection and employed Deep Learning
-        models for advanced traffic flow analysis and prediction. This system enhances traffic management strategies by providing valuable
-        insights on traffic flow.`,
-    technologies: "Machine Learning and Deep Learning",
-    link: "",
-    githubLink: "",
+    title: "CacheSync",
+    description: `This project consists of a file upload and download application with three main components: a client, a server, and a cache. The application supports file transfers using two transport protocols: 
+    TCP and stop-and-wait (SNW) over UDP. The goal of this project is to practice Application and Transport Layer skills by implementing (i) a cache service for file exchange, and (ii) two reliable data transport protocols.`,
+    technologies: "Python, Socket-Programming, TCP, UDP",
+    link: "https://github.com/keerthireddytummalapelly/CacheSync",
+    githubLink: "https://github.com/keerthireddytummalapelly/CacheSync",
   },
   {
     title: "My Portfolio",
@@ -29,7 +27,7 @@ export const projects = [
     technologies: "Next JS, Tailwind CSS, Framer Motion",
     link: "https://github.com/keerthireddytummalapelly/myportfolio",
     githubLink: "https://github.com/keerthireddytummalapelly/myportfolio",
-    websiteLink: "",
+    websiteLink: "https://keerthireddytummalapelly.com",
   },
 ];
 

@@ -83,13 +83,13 @@ const Education = () => {
         universityName="University at Albany"
         course="Master's in Computer Science"
       >
-        <p className="text-white">
+        <p className="text-zinc-100">
           Coursework : Algorithms and Data Structures, Data Mining, Database
           Systems, Operating Systems, Advanced Programming Concepts, Computer
           Networking, Software Engineering
         </p>
-        <p className="text-white">CGPA : 4.0/4.0</p>
-        <p className="text-white">
+        <p className="text-zinc-100">CGPA : 4.0/4.0</p>
+        <p className="text-zinc-100">
           Course Duration : January 2023 - December 2024
         </p>
       </ExpandableDiv>
@@ -97,13 +97,13 @@ const Education = () => {
         universityName="CVR College of Engineering"
         course="Bachelor of Technology in Computer Science and Engineering"
       >
-        <p className="text-white">
+        <p className="text-zinc-100">
           Relevant Coursework: Design and Analysis of Algorithms,
           Object-Oriented Programming, Cloud Computing
         </p>
-        <p className="text-white">CGPA: 9.95/10.0</p>
-        <p className="text-white">Course Duration: August 2017 - July 2021</p>
-        <p className="text-white">
+        <p className="text-zinc-100">CGPA: 9.95/10.0</p>
+        <p className="text-zinc-100">Course Duration: August 2017 - July 2021</p>
+        <p className="text-zinc-100">
           Recognition: Awarded a gold medal for being the top academic performer
           in the Computer Science department out of 300 students.
         </p>

@@ -90,7 +90,7 @@ export const Card = ({
               href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute top-4 right-4 text-white hover:text-gray-500"
+              className="absolute top-4 right-4 mt-4 text-white hover:text-gray-500"
             >
               <FaGithub size={24} />
             </a>
@@ -100,7 +100,7 @@ export const Card = ({
               href={websiteLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute top-4 right-16 text-white hover:text-gray-500"
+              className="absolute top-4 right-16 mt-4 text-white hover:text-gray-500"
             >
               <FaLink size={24} />
             </a>

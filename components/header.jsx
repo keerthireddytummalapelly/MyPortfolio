@@ -74,7 +74,7 @@ const Header = () => {
             KEERTHI
           </span>
         </Link>
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-8">
           {links.map((link, index) => (
             <button
               key={index}
@@ -89,7 +89,7 @@ const Header = () => {
             </button>
           ))}
         </div>
-        <div className="xl:hidden">
+        <div className="md:hidden">
           <button
             onClick={toggleSidebar}
             className="flex justify-center items-center"

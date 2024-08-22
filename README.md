@@ -4,7 +4,7 @@
 
 This is a personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. It showcases my experience, education, and projects with a modern, responsive design and smooth animations.
 
-Visit website: https://portfolio-gginmknd2-keerthi-redddy-tummalapellys-projects.vercel.app/
+Visit website: https://keerthiredddytummalapelly.com
 
 ## Getting Started
 

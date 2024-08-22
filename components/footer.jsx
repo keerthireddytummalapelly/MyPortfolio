@@ -25,19 +25,18 @@ const links = [
 const Footer = () => {
   return (
     <footer className="bg-background w-screen h-auto flex flex-col items-center py-6">
-      {/* Copyright Link */}
+   
       <div className="flex justify-center items-center mb-4">
         <Link
           href="https://github.com/"
           target="_blank"
           className="cursor-pointer hover:text-primary"
         >
-          &copy; Keerthi Reddy Tummalapelly - Portfolio
+          &copy; 2024 Keerthi Reddy Tummalapelly - Portfolio
         </Link>
       </div>
 
-      {/* Social Media Icons */}
-      <div className="flex flex-row items-center gap-4 xl:gap-8 space-y-4 xl:space-y-0">
+      <div className="flex flex-row items-center gap-4 xl:gap-8">
         {links.map((link, index) => (
           <Link
             key={index}
@@ -48,7 +47,7 @@ const Footer = () => {
             passHref
           >
             <span className="sr-only">{link.title}</span>
-            <div className="h-4 w-4">
+            <div className="h-4 w-4 flex items-center justify-center">
               {React.cloneElement(link.icon, {
                 className: "text-white group-hover:text-primary text-[16px]",
               })}
