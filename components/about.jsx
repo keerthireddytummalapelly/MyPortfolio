@@ -38,7 +38,7 @@ export default function About() {
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-8 lg:pb-24">
           <div className="text-left lg:w-3/4 lg:mr-8">
             <h1 className="text-[20px] lg:text-[32px] font-bold mb-6">
-              Hello I'm, <br />
+              Hello I'm <br />
               <TypewriterEffectSmooth words={words} />
             </h1>
             <p className="text-zinc-100 text-justify mb-6">

@@ -42,19 +42,19 @@ const ExpandableDiv = ({ universityName, course, children }) => {
       >
         <div
           className={`flex flex-col ${
-            !isExpanded ? "hover:text-blue-500" : ""
+            !isExpanded ? "hover:text-primary" : ""
           }`}
         >
           <div
             className={`text-xl xl:text-2xl font-bold capitalize my-1 ${
-              !isExpanded ? "hover:text-blue-500" : ""
+              !isExpanded ? "hover:text-primary" : ""
             }`}
           >
             {universityName}
           </div>
           <div
             className={`text-[20px] font-semibold ${
-              !isExpanded ? "hover:text-blue-500" : ""
+              !isExpanded ? "hover:text-primary" : ""
             }`}
           >
             {course}
